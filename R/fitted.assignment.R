@@ -64,7 +64,7 @@ fitted.assignment.backend = function(x, name, value) {
   else if (is(to.replace, "bn.fit.cgnode")) {
 
     # carry discrete parents' configurations from the old object.
-    value$configs = to.replace$configs
+    # value$configs = to.replace$configs
     # check the consistency of the new conditional distribution.
     value = check.fit.gnode.spec(value, node = name)
     # sanity check the new object by comparing it to the old one.
